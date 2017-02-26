@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import Login from '../Login';
 
 function MainContainer() {
     return (
         <div>
-            <button>
-                Sign up
-            </button>
+            <Login />
         </div>
     )
 }
